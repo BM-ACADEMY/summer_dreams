@@ -1,3 +1,12 @@
+/* About.css */
+body {
+  background-color: #ffffff !important; /* White background for the entire page */
+}
+
+.container {
+  background-color: #ffffff !important; /* Override Bootstrap's bg-light */
+}
+
 /* Slide in from left animation for image */
 @keyframes slideInLeft {
   from {
@@ -32,6 +41,7 @@
   line-height: 1.2; /* Tighten spacing */
   opacity: 0; /* Start hidden */
   transition: opacity 1.0s ease-out; /* Smooth transition when hiding */
+  color: #000000 !important; /* Change text color to black for visibility on white background */
 }
 
 .animate-on-scroll {

@@ -8,7 +8,7 @@ const Testimonials = () => {
       <div className="container px-4 px-md-5 px-lg-0">
         <div className="d-flex flex-column align-items-center">
           {/* Header */}
-          <div className="text-center mb-4">
+          <div className="text-center mb-4" id='testimonials'>
             <h2 className="mt-4 fs-3 fs-sm-4 fs-xl-5 fw-bold">
               <span style={{ color: 'black' }}>Take a Look</span>{' '}
               <span style={{ color: 'red' }}>What Our Happy Clients</span>{' '}

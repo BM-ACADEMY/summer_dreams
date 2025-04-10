@@ -72,7 +72,7 @@ const HeroCarousel = () => {
   };
 
   return (
-    <div className="hero-carousel overflow-hidden">
+    <div className="hero-carousel overflow-hidden" id='home'>
       {carouselItems.map((item, index) => (
         <div
           key={index}

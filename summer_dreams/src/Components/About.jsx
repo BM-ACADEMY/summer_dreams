@@ -28,7 +28,7 @@ const CustomComponent = () => {
   }, []);
 
   return (
-    <div className="container-fluid bg-light min-vh-70">
+    <div className="container bg-light min-vh-70" id='about'>
       <div className="row align-items-center p-4">
         {/* Image Column */}
         <div className="col-12 col-md-6 mb-4 mb-md-0">
@@ -48,10 +48,7 @@ const CustomComponent = () => {
           </h1>
           <div className="text-content">
             <p className="animate-paragraph text-white">
-              Escape to a world of endless summer bliss where golden sands meet crystal waters, inviting you to bask in the warm sun. 
-              Surrounded by nature’s finest landscapes, this serene beauty offers thrilling adventures or luxurious comfort—your choice awaits. 
-              As you scroll, let this paradise unfold, revealing a dream vacation perfect for all who seek relaxation or excitement. 
-              Welcome to Summer Dreams, where memories are crafted effortlessly and worries fade into the horizon with every passing moment.
+            Nestled amidst the misty hills and serene landscapes of Kodaikanal, Summer Dreams offers a warm and welcoming stay for travelers seeking peace, comfort, and nature. We provide Home Stay Cottages and Premium Rooms, thoughtfully designed to give you a homely yet luxurious experience.Perfect for families, couples, or solo travelers, our place is designed to help you relax and enjoy the beauty of the hills. With friendly service and modern amenities, we make your stay truly memorable.
             </p>
           </div>
         </div>

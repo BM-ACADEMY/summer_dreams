@@ -27,11 +27,11 @@ const Header = () => {
         <nav className={`navigation ${isMenuVisible ? 'show-mobile' : ''}`}>
           <ul className="nav-items">
           <li><a href="#" style={{ color: 'red' }}></a></li>
-            <li><a href="#" style={{ color: 'red' }}>Home</a></li>
-            <li><a href="#" style={{ color: 'red' }}>About</a></li>
-            <li><a href="#" style={{ color: 'red' }}>Services</a></li>
-            <li><a href="#" style={{ color: 'red' }}>Testimonials</a></li>
-            <li><a href="#" style={{ color: 'red' }}>Contact</a></li>
+            <li><a href="#home" style={{ color: 'red' }}>Home</a></li>
+            <li><a href="#about" style={{ color: 'red' }}>About</a></li>
+            <li><a href="#services" style={{ color: 'red' }}>Services</a></li>
+            <li><a href="#testimonials" style={{ color: 'red' }}>Testimonials</a></li>
+            <li><a href="#contact" style={{ color: 'red' }}>Contact</a></li>
           </ul>
         </nav>
       </div>
