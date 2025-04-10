@@ -41,14 +41,17 @@ const CustomComponent = () => {
 
         {/* Text Column */}
         <div className="col-12 col-md-6" ref={textRef}>
-          <h1 className="mb-4 text-center text-md-start">
+          <h1 className="mb-2 text-center text-md-start">
             <span className="text-dark">Welcome to </span>
             <span className="text-danger">Summer </span>
             <span className="text-primary">Dreams</span>
           </h1>
+          <p className="tagline text-center text-md-start mb-4">
+            &ldquo;Just Relax and Enjoy&rdquo;
+          </p>
           <div className="text-content">
             <p className="animate-paragraph text-white">
-            Nestled amidst the misty hills and serene landscapes of Kodaikanal, Summer Dreams offers a warm and welcoming stay for travelers seeking peace, comfort, and nature. We provide Home Stay Cottages and Premium Rooms, thoughtfully designed to give you a homely yet luxurious experience.Perfect for families, couples, or solo travelers, our place is designed to help you relax and enjoy the beauty of the hills. With friendly service and modern amenities, we make your stay truly memorable.
+              Nestled amidst the misty hills and serene landscapes of Kodaikanal, Summer Dreams offers a warm and welcoming stay for travelers seeking peace, comfort, and nature. We provide Home Stay Cottages and Premium Rooms, thoughtfully designed to give you a homely yet luxurious experience. Perfect for families, couples, or solo travelers, our place is designed to help you relax and enjoy the beauty of the hills. With friendly service and modern amenities, we make your stay truly memorable.
             </p>
           </div>
         </div>

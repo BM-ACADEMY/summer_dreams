@@ -1,4 +1,3 @@
-/* About.css */
 body {
   background-color: #ffffff !important; /* White background for the entire page */
 }
@@ -38,7 +37,8 @@ body {
 .animate-paragraph {
   margin: 0; /* Remove default margin */
   padding: 0; /* Remove default padding */
-  line-height: 1.2; /* Tighten spacing */
+  line-height: 1.6; /* Increased line spacing for readability (previously 1.2) */
+  word-spacing: 2px; /* Added word spacing */
   opacity: 0; /* Start hidden */
   transition: opacity 1.0s ease-out; /* Smooth transition when hiding */
   color: #000000 !important; /* Change text color to black for visibility on white background */
@@ -47,6 +47,13 @@ body {
 .animate-on-scroll {
   opacity: 1;
   animation: fadeInUp 0.5s ease-out forwards;
+}
+
+/* Tagline styling */
+.tagline {
+  font-size: 1.2rem; /* Slightly larger font size */
+  font-style: italic; /* Italicized for emphasis */
+  color: #555555; /* Softer gray color for contrast */
 }
 
 /* Custom image styling */
@@ -74,11 +81,23 @@ body {
 
   .animate-paragraph {
       font-size: 0.9rem;
+      line-height: 1.5; /* Slightly reduced line spacing for smaller screens */
+      word-spacing: 1.5px; /* Slightly reduced word spacing */
+  }
+
+  .tagline {
+      font-size: 1rem; /* Smaller tagline on tablets */
   }
 }
 
 @media (max-width: 576px) {
   .animate-paragraph {
       font-size: 0.85rem;
+      line-height: 1.4; /* Further reduced line spacing */
+      word-spacing: 1px; /* Further reduced word spacing */
+  }
+
+  .tagline {
+      font-size: 0.9rem; /* Smaller tagline on mobile */
   }
 }
