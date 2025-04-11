@@ -37,7 +37,8 @@ const FooterComponent = () => {
                   <li className="mt-md-3 mt-4">Get Connect With Us</li>
                   <li>
                     <FaWhatsapp className="me-2" />
-                    <a href="https://wa.me/+919894195939">9894195939</a>
+                    <a href="https://wa.me/+919894195939">9894195939 </a>
+                    <a href="https://wa.me/+917305184499">/ 7305184499</a>
                   </li>
                   <li>
                     <FaEnvelope className="me-2" />
@@ -45,7 +46,8 @@ const FooterComponent = () => {
                   </li>
                   <li>
                     <FaPhone className="me-2" />
-                    <a href="tel:+919894195939">9894195939</a>
+                    <a href="tel:+919894195939">9894195939 </a>
+                    <a href="tel:+917305184499"> / 7305184499</a>
                   </li>
                 </ul>
               </div>
