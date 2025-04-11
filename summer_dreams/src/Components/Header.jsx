@@ -1,7 +1,7 @@
 // Header.js
 import React, { useState } from 'react';
 import '../style/Header.css';
-import logo from '../assets/logo.png'; // Adjust path as needed
+import logo from '../assets/logo1.png'; // Adjust path as needed
 
 const Header = () => {
   const [isMenuVisible, setIsMenuVisible] = useState(false);

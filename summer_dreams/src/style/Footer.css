@@ -5,16 +5,19 @@
 .container-fluid {
   
   color: #fff !important;
-  background: linear-gradient(45deg, #dc767c, #7aa3e4);
+  background: linear-gradient(45deg, #0f1392, #0f1392);
 }
 
 footer {
-  color: #0a0a0a !important;
+  color: #ffffff !important;
 }
 
 .footer-logo {
   max-width: 150px;
   height: auto;
+}
+.copy-rights{
+  color: white;
 }
 
 .fa,
@@ -23,7 +26,7 @@ footer {
   cursor: pointer;
   font-size: 18px;
   margin: 5px 10px 5px 0 !important;
-  color: #060606;
+  color: #fcfafa;
   width: 20px;
   display: inline-block;
   text-align: center;
@@ -40,16 +43,16 @@ li:first-child {
   font-size: 21px !important;
   font-weight: bold;
   margin-bottom: calc(40px + (48 - 40) * ((100vw - 360px) / (1600 - 360))) !important;
-  color: #060606 !important;
+  color: #ffffff !important;
 }
 
 a {
-  color: #0a0a0a !important;
+  color: #ffffff !important;
   text-decoration: none;
 }
 
 a:hover {
-  color: #2a2525 !important;
+  color: #b3a7a7 !important;
   text-decoration: underline;
 }
 
@@ -63,11 +66,11 @@ a:hover {
 }
 
 .copyright-link {
-  color: #080808 !important;
+  color: #ffffff !important;
   font-weight: bold;
 }
 
 .copyright-link:hover {
-  color: #0a0a0a !important;
+  color: #d0c6c6 !important;
   text-decoration: underline;
 }

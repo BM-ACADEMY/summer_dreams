@@ -8,6 +8,7 @@ import Amenities from './Components/Amenities';
 import Rooms from './Components/Rooms';
 import Testimonial from './Components/Testimonial';
 import Footer from './Components/Footer';
+import InstagramVideoCard from './Components/InstagramVideoCard';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Amenities />
       <Rooms />
       <Testimonial />
+      <InstagramVideoCard />
     <Footer />
     </>
   )

@@ -4,7 +4,7 @@ import '../style/Footer.css';
 // Import React Icons
 import { FaFacebookF, FaLinkedinIn, FaTwitter, FaWhatsapp, FaEnvelope, FaPhone } from 'react-icons/fa';
 // Import logo
-import Logo from '../assets/logo.png';
+import Logo from '../assets/logo1.jpg';
 
 const FooterComponent = () => {
   return (
@@ -41,7 +41,7 @@ const FooterComponent = () => {
                   </li>
                   <li>
                     <FaEnvelope className="me-2" />
-                    <a href="mailto:your@email.com">Email</a>
+                    <a href="mailto:kodaisummerdreams@gmail.com">Kodaisummerdreams@gmail.com</a>
                   </li>
                   <li>
                     <FaPhone className="me-2" />
