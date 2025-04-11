@@ -51,7 +51,7 @@ const CustomComponent = () => {
           </p>
           <div className="text-content">
             <p className="animate-paragraph text-white">
-              Nestled amidst the misty hills and serene landscapes of Kodaikanal, Summer Dreams offers a warm and welcoming stay for travelers seeking peace, comfort, and nature. We provide Home Stay Cottages and Premium Rooms, thoughtfully designed to give you a homely yet luxurious experience. Perfect for families, couples, or solo travelers, our place is designed to help you relax and enjoy the beauty of the hills. With friendly service and modern amenities, we make your stay truly memorable.
+              Nestled amidst the misty hills and serene landscapes of  <span style={{ color: 'red' }}>Kodaikanal, Summer Dreams</span>{' '} offers a warm and welcoming stay for travelers seeking peace, comfort, and nature.<span style={{ color: 'red' }}>We provide Home Stay Cottages and Premium Rooms,</span>{' '}  thoughtfully designed to give you a homely yet luxurious experience. Perfect for families, couples, or solo travelers, our place is designed to help you relax and enjoy the beauty of the hills. With friendly service and modern amenities, we make your stay truly memorable.
             </p>
           </div>
           <h2 className="mt-4 fs-3 fs-sm-4 fs-xl-5 fw-bold">
