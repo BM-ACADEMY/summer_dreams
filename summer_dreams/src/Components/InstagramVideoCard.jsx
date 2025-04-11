@@ -6,7 +6,7 @@ import '../style/InstagramVideoCard.css';
 import thumbnail1 from '../assets/thumbnail1.jpeg';
 import thumbnail2 from '../assets/thumbnail3.jpeg';
 import video1 from '../assets/video5 (1).mp4';
-import video2 from '../assets/video5 (2).mp4';
+import video2 from '../assets/video 8.mp4';
 
 const VideoCard = () => {
   const [isPlaying1, setIsPlaying1] = useState(false);
