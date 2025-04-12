@@ -14,13 +14,13 @@ const reviews = [
   },
   {
     id: 2,
-    rating: 4,
+    rating: 5,
     content: "Overall, Great scenic view, Nice housekeeping team, manager and good booking experience. Location is slightly uphill , with narrow road but manageable not major concern.",
     name: "Ganesh Kumar",
   },
   {
     id: 3,
-    rating: 3,
+    rating: 5,
     content: "Very nice cottage in summer dreams good stay nice location view point",
     name: "Thejwal",
   },
@@ -38,7 +38,7 @@ const reviews = [
   },
   {
     id: 6,
-    rating: 4,
+    rating: 5,
     content: "Family friendly homestay. Very spacious. Hotwater and all amenities. Small kitchen space for limited cooking is available. Very good service.",
     name: "Vinayan",
   },
