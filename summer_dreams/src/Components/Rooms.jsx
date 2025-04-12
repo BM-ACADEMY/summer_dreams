@@ -106,7 +106,7 @@ const TourComponent = () => {
               src={video.thumbnail} 
               alt={`Video ${video.id} thumbnail`}
             />
-            <div className="play-button">▶</div>
+            <div className="play-button"></div>
           </div>
         ))}
       </div>
