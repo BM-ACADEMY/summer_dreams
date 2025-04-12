@@ -35,7 +35,7 @@ const VideoCard = () => {
   return (
     <div className="container mt-5">
       <h2 className="mt-4 fs-3 fs-sm-4 fs-xl-5 fw-bold">
-        <span style={{ color: 'black' }}>watch what our</span>{' '}
+        <span style={{ color: 'black' }}>Watch What Our</span>{' '}
         <span style={{ color: 'red' }}>Celebrities</span>{' '}
         <span style={{ color: 'blue' }}>Say About Us</span>
       </h2>

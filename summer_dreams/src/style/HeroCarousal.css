@@ -139,27 +139,29 @@
         gap: 15px;
     }
 
-    .nav-dot {
+    /* .nav-dot {
         width: 10px;
         height: 10px;
         background-color: red;
-    }
+    } */
 
-    .nav-dot.active {
+    /* .nav-dot.active {
         width: 14px;
         height: 14px;
         background-color: blue;
-    }
+    } */
 
     .carousel-caption {
-        top: 50%;
+        bottom: 20px;
+        top: auto;
         left: 50%;
-        transform: translate(-50%, -50%);
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        transform: translateX(-50%);
+        height: auto;
+        width: 90%;
+        text-align: center;
+        display: block;
     }
+    
 }
 
 @media (max-width: 576px) {
@@ -178,12 +180,14 @@
     }
 
     .carousel-caption {
-        top: 50%;
+        bottom: 20px;
+        top: auto;
         left: 50%;
-        transform: translate(-50%, -50%);
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        transform: translateX(-50%);
+        height: auto;
+        width: 90%;
+        text-align: center;
+        display: block;
     }
+    
 }

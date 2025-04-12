@@ -6,9 +6,9 @@ import HeroCarousal from './Components/HeroCarousal';
 import About from './Components/About';
 import Amenities from './Components/Amenities';
 import Rooms from './Components/Rooms';
-import Testimonial from './Components/Testimonial';
 import Footer from './Components/Footer';
 import InstagramVideoCard from './Components/InstagramVideoCard';
+import Carousel from './Components/Carousel';
 
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
       <About />
       <Amenities />
       <Rooms />
-      <Testimonial />
+      <Carousel />
       <InstagramVideoCard />
     <Footer />
     </>

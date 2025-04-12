@@ -1,0 +1,108 @@
+/* Overall wrapper to limit max width */
+.review-carousel-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color: #f3f4f6;
+    box-sizing: border-box;
+  }
+  
+  /* Carousel container with max-width */
+  .review-carousel-container {
+    max-width: 1200px;
+    width: 100%;
+    position: relative;
+  }
+  
+  /* Individual slide styling */
+  .review-slide {
+    padding: 16px;
+  }
+  
+  /* Card styling */
+  .review-card {
+    border: 1px solid red;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 24px;
+    position: relative;
+    transition: transform 0.3s ease;
+  }
+  
+  .review-card:hover {
+    transform: scale(1.03);
+  }
+  
+  /* Star rating */
+  .review-rating {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    display: flex;
+  }
+  
+  .review-rating svg {
+    color: #facc15;
+    margin-right: 4px;
+  }
+  
+  /* Centered review text */
+  .review-content {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #374151;
+    font-weight: 500;
+    padding: 0 24px;
+  }
+  
+  /* Reviewer name */
+  .review-name {
+    text-align: center;
+    color: #6b7280;
+    font-size: 14px;
+    padding-top: 16px;
+  }
+  
+  /* Custom dot style */
+  .custom-dots {
+    margin-top: 24px;
+    text-align: center;
+  }
+  .custom-dots li button:before {
+    color: #4b5563 !important; /* Tailwind gray-600 */
+  }
+  .custom-dots li.slick-active button:before {
+    color: #2563eb !important; /* Tailwind blue-600 */
+  }
+  
+  /* Button container aligned to right */
+  .review-button-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  /* Blue button style */
+  .review-button {
+    background-color: #2563eb;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  .review-button:hover {
+    background-color: #1d4ed8;
+  }
+  
