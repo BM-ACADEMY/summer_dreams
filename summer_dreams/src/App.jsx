@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Header from './Components/Header'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import HeroCarousal from './Components/HeroCarousal';
+import HeroCarousal from './Components/Herocarousel';
 import About from './Components/About';
 import Amenities from './Components/Amenities';
 import Rooms from './Components/Rooms';

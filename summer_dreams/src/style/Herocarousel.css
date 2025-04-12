@@ -122,7 +122,7 @@
 /* Responsive Design */
 @media (max-width: 768px) {
     .hero-carousel {
-        height: 50vh;
+        height: 80vh;
     }
 
     .carousel-text {
@@ -139,17 +139,17 @@
         gap: 15px;
     }
 
-    /* .nav-dot {
+    .nav-dot {
         width: 10px;
         height: 10px;
         background-color: red;
-    } */
+    }
 
-    /* .nav-dot.active {
+    .nav-dot.active {
         width: 14px;
         height: 14px;
         background-color: blue;
-    } */
+    }
 
     .carousel-caption {
         bottom: 20px;
@@ -161,14 +161,18 @@
         text-align: center;
         display: block;
     }
-    
+    .carousel-nav {
+        display: none;
+    }
 }
 
 @media (max-width: 576px) {
     .hero-carousel {
         height: 40vh;
     }
-
+    .carousel-nav {
+        display: none;
+    }
     .carousel-text {
         font-size: 1.2rem;
     }

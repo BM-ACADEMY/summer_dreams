@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../style/HeroCarousal.css';
+import '../style/Herocarousel.css';
 
 import heroImage1 from '../assets/img1.jpeg';
 import heroImage2 from '../assets/img2.jpeg';
-import heroImage3 from '../assets/img3.jpeg';
+import heroImage3 from '../assets/image13.jpeg';
 import heroImage4 from '../assets/img4.jpeg';
 
 const HeroCarousel = () => {
@@ -30,11 +30,12 @@ const HeroCarousel = () => {
       animation: 'slide-right'
     },
     {
-      type: 'image',
-      src: heroImage3,
-      text: ["Rest easy—your perfect room awaits."],
-      animation: 'slide-up'
-    }
+        type: 'image',
+        src: heroImage3,
+        text: ["Rest easy—your perfect room awaits."],
+        animation: 'slide-right'
+      },
+ 
   ];
 
   useEffect(() => {

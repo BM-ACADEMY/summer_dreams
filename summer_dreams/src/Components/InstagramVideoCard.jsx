@@ -37,7 +37,7 @@ const VideoCard = () => {
       <h2 className="mt-4 fs-3 fs-sm-4 fs-xl-5 fw-bold">
         <span style={{ color: 'black' }}>Watch What Our</span>{' '}
         <span style={{ color: 'red' }}>Celebrities</span>{' '}
-        <span style={{ color: 'blue' }}>Say About Us</span>
+        <span style={{ color: 'blue' }}>Says About Us</span>
       </h2>
       <br />
       <div className="row">
