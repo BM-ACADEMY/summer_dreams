@@ -27,7 +27,7 @@ const reviews = [
   {
     id: 4,
     rating: 5,
-    content: "We had lovely staycation here in Summer Dreams Home Stay.Very friendly and helpful people who are always ready to fulfill all your needs.Best part is the view you get from this property,its like a viewpoint,you can also have a view of sunrise in the morning.",
+    content: "I loved summer dreams cottage .Best part is the view you get from this property,its like a viewpoint,you can also have a view of sunrise in the morning.",
     name: "Nirmal",
   },
   {
@@ -45,7 +45,7 @@ const reviews = [
   {
     id: 7,
     rating: 5,
-    content: "'m from Kerala I stayed with family here in summer dreams cottage Kodaikanal very nice to stay near and clean rooms are very nice and service was good .",
+    content: "I'm from Kerala I stayed with family here in summer dreams cottage Kodaikanal very nice to stay near and clean rooms are very nice and service was good .",
     name: "Aneesh",
   },
 ];
