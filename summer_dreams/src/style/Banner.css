@@ -12,3 +12,6 @@
     object-fit: cover; /* Ensure images cover the area without distortion */
     width: 450px;
   }
+  #banner{
+    background-color: whitesmoke !important;
+  }
