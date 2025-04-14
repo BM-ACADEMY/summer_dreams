@@ -39,7 +39,18 @@ const BannerComponent = () => {
             <img src={CardImage3} alt="Card 3" className="card-img-top"  />
             
           </div>
+          <div className="review-button-wrapper">
+  <a
+    href="https://www.booking.com/hotel/in/summer-dreams-cottage-kodaikanal"
+    className="review-button"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Book Now
+  </a>
+</div>
         </div>
+       
       </div>
     </div>
   );
