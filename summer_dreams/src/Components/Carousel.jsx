@@ -70,7 +70,7 @@ const ReviewCarousel = () => {
 
   return (
     
-    <div className="review-carousel-wrapper">
+    <div className="review-carousel-wrapper" id="testimonials">
             
       <div className="review-carousel-container">
       <div style={{ display: 'flex', justifyContent: 'center' }}>

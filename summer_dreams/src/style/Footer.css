@@ -80,3 +80,18 @@ a:hover {
   text-align: center;
   font-size: 0.875rem; /* Optional: Adjust font size if needed */
 }
+
+.social-icons {
+  display: flex;
+  gap: 10px; /* Adjust spacing between icons */
+  margin-top: 10px; /* Space above icons */
+}
+
+.social-icons a {
+  color: #333; /* Default icon color */
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #007bff; /* Hover color, adjust as needed */
+}

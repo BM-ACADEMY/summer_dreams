@@ -7,7 +7,7 @@
     transform: translateY(-5px); /* Optional: Slight lift on hover */
   }
   
-  .card-img-top {
+  .card-img {
     height: 400px; /* Fixed height for images */
     object-fit: cover; /* Ensure images cover the area without distortion */
     width: 450px;
@@ -15,3 +15,5 @@
   #banner{
     background-color: whitesmoke !important;
   }
+
+  

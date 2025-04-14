@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/Footer.css';
 // Import React Icons
-import { FaFacebookF, FaLinkedinIn, FaTwitter, FaWhatsapp, FaEnvelope, FaPhone } from 'react-icons/fa';
+import { FaFacebookF, FaLinkedinIn, FaTwitter, FaWhatsapp, FaEnvelope, FaPhone, FaYoutube, FaInstagram } from 'react-icons/fa';
 // Import logo
 import Logo from '../assets/logo1.jpg';
 
@@ -19,10 +19,21 @@ const FooterComponent = () => {
                 </h5>
                 <p>
                   <small>
-                  We Provide Home Stay Cottage and Premium Rooms.
-                  Stay Relax and Enjoy.
+                    We Provide Home Stay Cottage and Premium Rooms.
+                    Stay Relax and Enjoy.
                   </small>
                 </p>
+                <div className="social-icons">
+                  <a href="https://www.youtube.com/@YourYouTubeID" target="_blank" rel="noopener noreferrer" className="me-2">
+                    <FaYoutube size={20} />
+                  </a>
+                  <a href="https://www.instagram.com/YourInstagramID" target="_blank" rel="noopener noreferrer" className="me-2">
+                    <FaInstagram size={20} />
+                  </a>
+                  <a href="https://www.facebook.com/YourFacebookID" target="_blank" rel="noopener noreferrer">
+                    <FaFacebookF size={20} />
+                  </a>
+                </div>
               </div>
 
               <div className="col-md-3 col-12 my-sm-0 mt-5">
@@ -68,7 +79,7 @@ const FooterComponent = () => {
         </div>
         <div className="row mt-4">
           <div className="col-12 text-center">
-            <small className="copy-rights cursor-pointer">
+            <small className="copy Rights cursor-pointer">
               Ⓒ 2025 - All rights reserved by <a href="https://bmtechx.in/" className="copyright-link">BM TECHx</a> <br /><br />
             </small>
           </div>
