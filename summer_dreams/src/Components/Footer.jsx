@@ -80,7 +80,7 @@ const FooterComponent = () => {
         <div className="row mt-4">
           <div className="col-12 text-center">
             <small className="copy Rights cursor-pointer">
-              Ⓒ 2025 - All rights reserved by <a href="https://bmtechx.in/" className="copyright-link">BM TECHx</a> <br /><br />
+              Ⓒ 2025 - All rights reserved by <a href="https://bmtechx.in/" className="copyright-link" target='_blank'>BM TECHx</a> <br /><br />
             </small>
           </div>
         </div>
