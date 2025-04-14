@@ -24,13 +24,13 @@ const FooterComponent = () => {
                   </small>
                 </p>
                 <div className="social-icons">
-                  <a href="https://www.youtube.com/@YourYouTubeID" target="_blank" rel="noopener noreferrer" className="me-2">
+                  <a href="https://youtube.com/@summerdreamskodai?si=FytGYgJXbjvufSRv" target="_blank" rel="noopener noreferrer" className="me-2">
                     <FaYoutube size={20} />
                   </a>
-                  <a href="https://www.instagram.com/YourInstagramID" target="_blank" rel="noopener noreferrer" className="me-2">
+                  <a href="https://www.instagram.com/summerdreamscottagekodaikanal?utm_source=qr&igsh=MTgzMnA1M3AwY2YxdA==" target="_blank" rel="noopener noreferrer" className="me-2">
                     <FaInstagram size={20} />
                   </a>
-                  <a href="https://www.facebook.com/YourFacebookID" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.facebook.com/share/1FaZr6r8Sg/" target="_blank" rel="noopener noreferrer">
                     <FaFacebookF size={20} />
                   </a>
                 </div>
