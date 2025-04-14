@@ -9,6 +9,8 @@ import Rooms from './Components/Rooms';
 import Footer from './Components/Footer';
 import InstagramVideoCard from './Components/InstagramVideoCard';
 import Carousel from './Components/Carousel';
+import Banner from './Components/BannerComponent';
+
 
 
 function App() {
@@ -22,6 +24,7 @@ function App() {
       <About />
       <Amenities />
       <Rooms />
+      <Banner />
       <Carousel />
       <InstagramVideoCard />
     <Footer />

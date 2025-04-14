@@ -74,3 +74,9 @@ a:hover {
   color: #d0c6c6 !important;
   text-decoration: underline;
 }
+
+.copy.Rights {
+  display: block;
+  text-align: center;
+  font-size: 0.875rem; /* Optional: Adjust font size if needed */
+}

@@ -63,9 +63,16 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  .brand-logo {
+    padding-left: 1.5rem; /* Added space to the left of the logo */
+  }
+ 
   .menu-button {
     display: block;
-    padding-right: 60px !important;
+    padding-right: 70px !important;
+    font-weight: 700 ;
+    width: 150px;
+    height: 100px;
   }
 
   .navigation {
@@ -97,6 +104,7 @@
 
 /* Ensure desktop view works */
 @media (min-width: 769px) {
+
   .navigation {
     display: block !important; /* Override any mobile state */
   }

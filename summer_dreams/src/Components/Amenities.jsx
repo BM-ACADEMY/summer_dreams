@@ -27,7 +27,7 @@ const cardData = [
   { title: '24 hrs hot water available', icon: <FaShower /> },
   { title: '24 hrs room service', icon: <FaConciergeBell /> },
   { title: 'Doctor on call', icon: <FaUserMd /> },
-  { title: 'From our cottage to lake 2KM only', icon: <FaWater /> },
+  { title: 'Tour Packages available', icon: <FaWater /> },
   { title: 'Cab booking on site', icon: <FaTaxi /> },
 ];
 

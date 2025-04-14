@@ -45,6 +45,7 @@ const CustomComponent = () => {
               <span style={{ color: 'black' }}>Welcome to</span>{' '}
               <span style={{ color: 'red' }}>Summer</span>{' '}
               <span style={{ color: 'blue' }}>Dreams</span>
+              <span style={{ color: 'black' }}>- Home Stay Cottage</span>{' '}
             </h2>
           <p className="tagline text-center text-md-start mb-4">
             &ldquo;Just Relax and Enjoy&rdquo;

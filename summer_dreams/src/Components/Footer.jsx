@@ -13,16 +13,19 @@ const FooterComponent = () => {
         <div className="row justify-content-around mb-0 pt-5 pb-0">
           <div className="col-11">
             <div className="row justify-content-center">
-              <div className="col-md-4 col-12 font-italic align-items-center mt-md-3 mt-4">
+              <div className="col-md-3 col-12 font-italic align-items-center mt-md-3 mt-4">
                 <h5>
                   <img src={Logo} alt="Logo" className="footer-logo" />
                 </h5>
-            
-                <small className="copy-rights cursor-pointer">Ⓒ 2025 - All rights reserved by <a href="https://bmtechx.in/" className="copyright-link">BM TECHx</a>
-                </small>
+                <p>
+                  <small>
+                  We Provide Home Stay Cottage and Premium Rooms.
+                  Stay Relax and Enjoy.
+                  </small>
+                </p>
               </div>
 
-              <div className="col-md-4 col-12 my-sm-0 mt-5">
+              <div className="col-md-3 col-12 my-sm-0 mt-5">
                 <ul className="list-unstyled">
                   <li className="mt-md-3 mt-4">Useful Links</li>
                   <li><a href="#home">Home</a></li>
@@ -32,7 +35,7 @@ const FooterComponent = () => {
                 </ul>
               </div>
 
-              <div className="col-md-4 col-12 my-sm-0 mt-5">
+              <div className="col-md-3 col-12 my-sm-0 mt-5">
                 <ul className="list-unstyled">
                   <li className="mt-md-3 mt-4">Get Connect With Us</li>
                   <li>
@@ -51,7 +54,23 @@ const FooterComponent = () => {
                   </li>
                 </ul>
               </div>
+
+              <div className="col-md-3 col-12 my-sm-0 mt-5">
+                <ul className="list-unstyled">
+                  <li className="mt-md-3 mt-4">Address</li>
+                  <li>Kodaigate Ugarthynager,</li>
+                  <li>Kodaikanal, Tamil Nadu</li>
+                  <li>624101</li>
+                </ul>
+              </div>
             </div>
+          </div>
+        </div>
+        <div className="row mt-4">
+          <div className="col-12 text-center">
+            <small className="copy-rights cursor-pointer">
+              Ⓒ 2025 - All rights reserved by <a href="https://bmtechx.in/" className="copyright-link">BM TECHx</a> <br /><br />
+            </small>
           </div>
         </div>
       </footer>
