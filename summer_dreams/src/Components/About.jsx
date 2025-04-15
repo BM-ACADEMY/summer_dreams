@@ -44,7 +44,7 @@ const CustomComponent = () => {
         <h2 className="mt-4 fs-3 fs-sm-4 fs-xl-5 fw-bold" style={{textAlign: 'left', fontFamily:'poppins'}}>
               <span style={{ color: 'black' }}>Welcome to</span>{' '}
               <span style={{ color: 'red' }}>Summer</span>{' '}
-              <span style={{ color: 'Green' }}>Dreams</span>
+              <span style={{ color: 'blue' }}>Dreams</span>
               <span style={{ color: 'black' }}>- Home Stay Cottage</span>{' '}
             </h2>
           <p className="tagline text-center text-md-start mb-4">
