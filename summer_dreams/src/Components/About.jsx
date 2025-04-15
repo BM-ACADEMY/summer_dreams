@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import img1 from '../assets/image9.jpeg'; // Adjust path as needed
+import img1 from '../assets/h1.jpeg'; // Adjust path as needed
 import '../style/About.css';
 
 const CustomComponent = () => {
