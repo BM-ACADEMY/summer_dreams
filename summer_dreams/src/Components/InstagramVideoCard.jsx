@@ -93,7 +93,7 @@ const VideoCard = () => {
         ))}
       </div>
       <div className="button-container">
-        <button className="btn btn-primary" onClick={handleButtonClick}>
+        <button className="btn btn-primary" onClick={handleButtonClick} style={{backgroundColor:'green'}}>
           See More Reviews
         </button>
       </div>

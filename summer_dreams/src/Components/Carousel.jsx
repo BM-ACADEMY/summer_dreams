@@ -74,7 +74,7 @@ const ReviewCarousel = () => {
             
       <div className="review-carousel-container">
       <div style={{ display: 'flex', justifyContent: 'center' }}>
-  <h2 className="mt-4 fs-3 fs-sm-4 fs-xl-5 fw-bold text-center" style={{fontFamily:'poppins'}}>
+  <h2 className="mt-4 fs-3 fs-sm-4 fs-xl-5 fw-bold text-center p-4 " style={{fontFamily:'poppins'}}>
     <span style={{ color: 'black' }}>Take a Look What</span>{' '}
     <span style={{ color: 'red' }}>Our Customers</span>{' '}
     <span style={{ color: 'green' }}>Says About Us</span>

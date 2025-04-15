@@ -88,7 +88,7 @@ const TourComponent = () => {
   return (
     <div className="tour-container">
       {/* Heading */}
-      <h2 className="mt-4 fs-3 fs-sm-4 fs-xl-5 fw-bold"style={{fontFamily:'poppins'}}>
+      <h2 className="mt-4 fs-3 fs-sm-4 fs-xl-5 fw-bold p-4"style={{fontFamily:'poppins'}}>
         <span style={{ color: 'black' }}>Take A Tour To </span>{' '}
         <span style={{ color: 'red' }}>Our</span>{' '}
         <span style={{ color: 'Green' }}>Cottage</span>
