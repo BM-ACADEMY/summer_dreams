@@ -17,7 +17,7 @@
   }
   
   .amenities-text {
-    color: #2655a1;
+    color:green;
   }
   
   .card-row {
@@ -52,7 +52,7 @@
   .card-icon {
     font-size: 2rem;
     margin-bottom: 15px;
-    color: #4a90e2;
+    color: green;
   }
   
   h3 {

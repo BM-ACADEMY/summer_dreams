@@ -104,7 +104,7 @@ const ZigzagCard = ({ title, icon, index }) => {
 const ZigzagCards = () => {
   return (
     <div className="cards-container" id='services'>
-      <h2 className="cards-heading">
+      <h2 className="cards-heading"style={{fontFamily:'poppins'}}>
         <span className="our-text">Our</span>{' '}
         <span className="amenities-text">Amenities</span>
       </h2>

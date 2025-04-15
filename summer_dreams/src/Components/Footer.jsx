@@ -69,7 +69,7 @@ const FooterComponent = () => {
               <div className="col-md-3 col-12 my-sm-0 mt-5">
                 <ul className="list-unstyled">
                   <li className="mt-md-3 mt-4">Address</li>
-                  <li>Kodaigate Ugarthynager,</li>
+                  <li>Kodaigate ugarthynager bus Stop🛑,</li>
                   <li>Kodaikanal, Tamil Nadu</li>
                   <li>624101</li>
                 </ul>

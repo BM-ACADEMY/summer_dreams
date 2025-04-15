@@ -88,11 +88,11 @@ const TourComponent = () => {
   return (
     <div className="tour-container">
       {/* Heading */}
-      <h1 className="tour-heading">
-        <span className="tour-part">Take a Tour</span>{' '}
-        <span className="our-part">Our</span>{' '}
-        <span className="cottage-part">Cottage</span>
-      </h1>
+      <h2 className="mt-4 fs-3 fs-sm-4 fs-xl-5 fw-bold"style={{fontFamily:'poppins'}}>
+        <span style={{ color: 'black' }}>Take A Tour To </span>{' '}
+        <span style={{ color: 'red' }}>Our</span>{' '}
+        <span style={{ color: 'Green' }}>Cottage</span>
+      </h2>
 
       {/* Video Section */}
       <div className="video-section">

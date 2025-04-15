@@ -41,10 +41,10 @@ const CustomComponent = () => {
 
         {/* Text Column */}
         <div className="col-12 col-md-6" ref={textRef}>
-        <h2 className="mt-4 fs-3 fs-sm-4 fs-xl-5 fw-bold" style={{textAlign: 'left'}}>
+        <h2 className="mt-4 fs-3 fs-sm-4 fs-xl-5 fw-bold" style={{textAlign: 'left', fontFamily:'poppins'}}>
               <span style={{ color: 'black' }}>Welcome to</span>{' '}
               <span style={{ color: 'red' }}>Summer</span>{' '}
-              <span style={{ color: 'blue' }}>Dreams</span>
+              <span style={{ color: 'Green' }}>Dreams</span>
               <span style={{ color: 'black' }}>- Home Stay Cottage</span>{' '}
             </h2>
           <p className="tagline text-center text-md-start mb-4">
@@ -55,10 +55,10 @@ const CustomComponent = () => {
               Nestled amidst the misty hills and serene landscapes of  <span style={{ color: 'red' }}>Kodaikanal, Summer Dreams</span>{' '} offers a warm and welcoming stay for travelers seeking peace, comfort, and nature.<span style={{ color: 'red' }}>We provide Home Stay Cottages and Premium Rooms,</span>{' '}  thoughtfully designed to give you a homely yet luxurious experience. Perfect for families, couples, or solo travelers, our place is designed to help you relax and enjoy the beauty of the hills. With friendly service and modern amenities, we make your stay truly memorable.
             </p>
           </div>
-          <h2 className="mt-4 fs-3 fs-sm-4 fs-xl-5 fw-bold">
+          <h2 className="mt-4 fs-3 fs-sm-4 fs-xl-5 fw-bold"style={{fontFamily:'poppins'}}>
               <span style={{ color: 'black' }}>Approved By</span>{' '}
               <span style={{ color: 'red' }}>Department of Tourism</span>{' '}
-              <span style={{ color: 'blue' }}>TamilNadu</span>
+              <span style={{ color: 'green' }}>TamilNadu</span>
             </h2>
         </div>
       </div>

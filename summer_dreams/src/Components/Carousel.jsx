@@ -9,13 +9,13 @@ const reviews = [
   {
     id: 1,
     rating: 5,
-    content: "We are stayed with my family so happy in this property i highly recommended. Camp fire with BBQ facilities very nice. Thank you very much summer dreams staff. Tavell facility also available.",
+    content: "Great stay with my family, highly recommend! BBQ campfire was awesome. Thanks to Summer Dreams staff. Travel facilities available too.",
     name: "Kalaivani",
   },
   {
     id: 2,
     rating: 5,
-    content: "Overall, Great scenic view, Nice housekeeping team, manager and good booking experience. Location is slightly uphill , with narrow road but manageable not major concern.",
+    content: "Wonderful stay, highly recommend! BBQ campfire was great. Thanks to Summer Dreams staff. Travel facilities available.",
     name: "Ganesh Kumar",
   },
   {
@@ -27,13 +27,13 @@ const reviews = [
   {
     id: 4,
     rating: 5,
-    content: "I loved summer dreams cottage .Best part is the view you get from this property,its like a viewpoint,you can also have a view of sunrise in the morning.",
+    content: "I loved summer dreams cottage.Best part is the view you get from this property,its like a viewpoint, have a view of sunrise in the morning.",
     name: "Nirmal",
   },
   {
     id: 5,
     rating: 5,
-    content: "We are stay here in summer dreams home stay with my office colleague neat and cleanvroom good service home made food very taste .nice view point good location I recommended this cottage . overall good ",
+    content: "Had a great stay at Summer Dreams with my office colleagues. Clean rooms, great service, tasty homemade food, and a nice view. Highly recommend! ",
     name: "Rizwanullah",
   },
   {
@@ -74,10 +74,10 @@ const ReviewCarousel = () => {
             
       <div className="review-carousel-container">
       <div style={{ display: 'flex', justifyContent: 'center' }}>
-  <h2 className="mt-4 fs-3 fs-sm-4 fs-xl-5 fw-bold text-center">
+  <h2 className="mt-4 fs-3 fs-sm-4 fs-xl-5 fw-bold text-center" style={{fontFamily:'poppins'}}>
     <span style={{ color: 'black' }}>Take a Look What</span>{' '}
     <span style={{ color: 'red' }}>Our Customers</span>{' '}
-    <span style={{ color: 'blue' }}>Says About Us</span>
+    <span style={{ color: 'green' }}>Says About Us</span>
   </h2>
 </div>
 

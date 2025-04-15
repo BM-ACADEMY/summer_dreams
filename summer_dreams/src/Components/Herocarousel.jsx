@@ -2,10 +2,11 @@ import React, { useEffect, useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/Herocarousel.css';
 
-import heroImage1 from '../assets/img1.jpeg';
-import heroImage2 from '../assets/img2.jpeg';
-import heroImage3 from '../assets/image13.jpeg';
+import heroImage1 from '../assets/h1.jpeg';
+import heroImage2 from '../assets/h2.jpg';
+import heroImage3 from '../assets/h3.jpg';
 import heroImage4 from '../assets/img4.jpeg';
+import heroImage5 from '../assets/h4.jpg';
 
 const HeroCarousel = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -13,7 +14,7 @@ const HeroCarousel = () => {
   const carouselItems = [
     {
       type: 'image',
-      src: heroImage4,
+      src: heroImage5,
       text: ["Discover the ultimate relaxation – escape, rejuvenate, and indulge in pure opulence."],
       animation: 'slide-up'
     },
@@ -30,17 +31,16 @@ const HeroCarousel = () => {
       animation: 'slide-right'
     },
     {
-        type: 'image',
-        src: heroImage3,
-        text: ["Rest easy—your perfect room awaits."],
-        animation: 'slide-right'
-      },
- 
+      type: 'image',
+      src: heroImage3,
+      text: ["Rest easy—your perfect room awaits."],
+      animation: 'slide-right'
+    },
   ];
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setActiveIndex((prevIndex) => 
+      setActiveIndex((prevIndex) =>
         prevIndex === carouselItems.length - 1 ? 0 : prevIndex + 1
       );
     }, 3000);
@@ -57,15 +57,7 @@ const HeroCarousel = () => {
       <div className={`carousel-text ${animation}`}>
         {text.map((line, index) => (
           <div key={index} className="text-line">
-            {animation === 'door-open' ? (
-              line.split('').map((char, i) => (
-                <span key={i} style={{ animationDelay: `${i * 0.1}s` }}>
-                  {displayText ? displayText[0].split('')[i] : char}
-                </span>
-              ))
-            ) : (
-              <span>{line}</span>
-            )}
+            <span>{line}</span>
           </div>
         ))}
       </div>
@@ -73,7 +65,7 @@ const HeroCarousel = () => {
   };
 
   return (
-    <div className="hero-carousel overflow-hidden" id='home'>
+    <div className="hero-carousel overflow-hidden" id="home">
       {carouselItems.map((item, index) => (
         <div
           key={index}
@@ -82,13 +74,13 @@ const HeroCarousel = () => {
           <img
             src={item.src}
             alt={`Slide ${index + 1}`}
-            className="d-block w-100 object-fit-cover zoom-in"
+            className="carousel-img"
           />
           <div className="carousel-caption">
-            <AnimatedText 
-              text={item.text} 
-              displayText={item.displayText} 
-              animation={item.animation} 
+            <AnimatedText
+              text={item.text}
+              displayText={item.displayText}
+              animation={item.animation}
             />
           </div>
         </div>
