@@ -46,7 +46,7 @@ const BannerComponent = () => {
     target="_blank"
     rel="noopener noreferrer"
   >
-    Book Now
+   Online Booking in Booking.com
   </a>
 </div>
         </div>

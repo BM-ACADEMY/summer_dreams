@@ -107,7 +107,7 @@ const ReviewCarousel = () => {
     target="_blank"
     rel="noopener noreferrer"
   >
-    View on Google Maps
+    View on Google Reviews
   </a>
 </div>
 
