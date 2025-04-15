@@ -2,11 +2,11 @@ import React, { useEffect, useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/Herocarousel.css';
 
-import heroImage1 from '../assets/h1.jpeg';
-import heroImage2 from '../assets/h2.jpg';
-import heroImage3 from '../assets/h3.jpg';
+import heroImage1 from '../assets/img1.jpeg';
+import heroImage2 from '../assets/img2.jpeg';
+import heroImage3 from '../assets/img3.jpeg';
 import heroImage4 from '../assets/img4.jpeg';
-import heroImage5 from '../assets/h4.jpg';
+import heroImage5 from '../assets/img4.jpeg';
 
 const HeroCarousel = () => {
   const [activeIndex, setActiveIndex] = useState(0);
