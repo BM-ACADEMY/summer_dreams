@@ -3,7 +3,7 @@
 
 
 body{
-  font-family: 'poppins';
+  font-family: 'Poppins', sans-serif !important;
 }
 .site-header {
   background-color: white;
@@ -71,8 +71,7 @@ body{
 @media (max-width: 768px) {
 
     body {
-  
-      font-family: poppins; /* White background for the entire page */
+      font-family: 'Poppins', sans-serif !important;
     }
   .brand-logo {
     padding-left: 1.5rem; /* Added space to the left of the logo */
@@ -117,8 +116,7 @@ body{
 @media (min-width: 769px) {
   
     body {
-  
-      font-family: poppins; /* White background for the entire page */
+      font-family: 'Poppins', sans-serif !important;
     }
   .navigation {
     display: block !important; /* Override any mobile state */

@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 body{
-  font-family: 'poppins';
+  font-family: 'Poppins', sans-serif !important;
 }
 .review-carousel-wrapper {
     width: 100%;
@@ -115,5 +115,5 @@ body{
   @media (max-width: 768px) {
     body {
   
-      font-family: poppins; /* White background for the entire page */
+      font-family: 'Poppins', sans-serif !important;
     }}

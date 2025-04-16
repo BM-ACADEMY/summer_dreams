@@ -2,7 +2,7 @@
 
 
 body{
-  font-family: 'poppins';
+  font-family: 'Poppins', sans-serif !important;
 }
 .cards-container {
     max-width: 1200px;
@@ -71,7 +71,7 @@ body{
   @media (max-width: 1024px) {
     body {
 
-      font-family: poppins; /* White background for the entire page */
+      font-family: 'Poppins', sans-serif !important;
     }
     .card-row {
       grid-template-columns: repeat(2, 1fr);
@@ -81,7 +81,7 @@ body{
   @media (max-width: 768px) {
     body {
 
-      font-family: poppins; /* White background for the entire page */
+      font-family: 'Poppins', sans-serif !important;
     }
     .cards-heading {
       padding-left: 20px;

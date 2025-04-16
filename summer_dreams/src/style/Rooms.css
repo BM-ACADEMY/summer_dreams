@@ -141,8 +141,7 @@
   @media (max-width: 768px) {
 
       body {
-    
-        font-family: 'poppins'; /* White background for the entire page */
+        font-family: 'Poppins', sans-serif !important;
       }
     .video-section {
       flex-direction: column;
@@ -165,8 +164,7 @@
   @media (max-width: 480px) {
    
       body {
-    
-        font-family: poppins !important; /* White background for the entire page */
+        font-family: 'Poppins', sans-serif !important;
       }
     .cards-section {
       grid-template-columns: 1fr;
