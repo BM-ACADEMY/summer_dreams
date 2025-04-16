@@ -163,7 +163,7 @@
    
       body {
     
-        font-family: 'poppins'; /* White background for the entire page */
+        font-family: 'poppins'!important; /* White background for the entire page */
       }
     .cards-section {
       grid-template-columns: 1fr;

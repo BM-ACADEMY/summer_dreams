@@ -74,7 +74,7 @@ body {
 @media (max-width: 768px) {
   body {
 
-    font-family: 'poppins'; /* White background for the entire page */
+    font-family: 'poppins' !important; /* White background for the entire page */
   }
   .custom-img {
       width: 100%;
