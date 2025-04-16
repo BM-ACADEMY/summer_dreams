@@ -1,4 +1,7 @@
 /* Overall wrapper to limit max width */
+body{
+  font-family: 'poppins';
+}
 .review-carousel-wrapper {
     width: 100%;
     display: flex;
