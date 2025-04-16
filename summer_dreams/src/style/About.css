@@ -71,6 +71,7 @@ body {
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
+  
   .custom-img {
       width: 100%;
   }

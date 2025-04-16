@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import img1 from '../assets/h1.jpeg'; // Adjust path as needed
+import img1 from '../assets/about.jpg'; // Adjust path as needed
 import '../style/About.css';
 
 const CustomComponent = () => {
@@ -31,7 +31,7 @@ const CustomComponent = () => {
     <div className="container bg-light min-vh-70" id='about'>
       <div className="row align-items-center p-4">
         {/* Image Column */}
-        <div className="col-12 col-md-6 mb-4 mb-md-0">
+        <div className="col-12 col-md-6 mb-4 mb-md-0 aboutimg">
           <img
             src={img1}
             alt="Summer Dreams"
@@ -52,7 +52,7 @@ const CustomComponent = () => {
           </p>
           <div className="text-content">
             <p className="animate-paragraph text-white">
-              Nestled amidst the misty hills and serene landscapes of  <span style={{ color: 'red' }}>Kodaikanal, Summer Dreams</span>{' '} offers a warm and welcoming stay for travelers seeking peace, comfort, and nature.<span style={{ color: 'red' }}>We provide Home Stay Cottages and Premium Rooms,</span>{' '}  thoughtfully designed to give you a homely yet luxurious experience. Perfect for families, couples, or solo travelers, our place is designed to help you relax and enjoy the beauty of the hills. With friendly service and modern amenities, we make your stay truly memorable.
+              Nestled amidst the misty hills and serene landscapes of  <span style={{ color: 'red' }}>Kodaikanal, Summer </span>{' '} <span style={{ color: 'blue' }}> Dreams</span>{' '} offers a warm and welcoming stay for travelers seeking peace, comfort, and nature.<span style={{ color: 'red' }}>We provide Home Stay Cottages and Premium Rooms,</span>{' '}  thoughtfully designed to give you a homely yet luxurious experience. Perfect for families, couples, or solo travelers, our place is designed to help you relax and enjoy the beauty of the hills. With friendly service and modern amenities, we make your stay truly memorable.
             </p>
           </div>
           <h2 className="mt-4 fs-3 fs-sm-4 fs-xl-5 fw-bold"style={{fontFamily:'poppins'}}>
