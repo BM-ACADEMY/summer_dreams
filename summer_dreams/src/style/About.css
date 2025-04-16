@@ -105,8 +105,8 @@ body {
 }
 @media (max-width: 576px) {
   .custom-img {
-      height: 250px; /* Adjust as needed for mobile */
-      object-fit: cover; 
-      width: max-content;/* Ensures image is nicely cropped and scaled */
+      height: 250px; /* Reduced height for mobile */
+      width: 100%; /* Maintain full width */
+      object-fit: cover; /* Keeps image looking good */
   }
 }
