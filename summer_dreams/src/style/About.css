@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
 body {
-  
-  font-family: 'poppins'; /* White background for the entire page */
+  font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* White background for the entire page */
 }
 
 .container {
@@ -43,6 +45,7 @@ body {
   opacity: 0; /* Start hidden */
   transition: opacity 1.0s ease-out; /* Smooth transition when hiding */
   color: #000000 !important; /* Change text color to black for visibility on white background */
+  font-family: 'Poppins', sans-serif; /* Ensure Poppins for paragraphs */
 }
 
 .animate-on-scroll {
@@ -55,6 +58,7 @@ body {
   font-size: 1.2rem; /* Slightly larger font size */
   font-style: italic; /* Italicized for emphasis */
   color: #555555; /* Softer gray color for contrast */
+  font-family: 'Poppins', sans-serif; /* Ensure Poppins for tagline */
 }
 
 /* Custom image styling */
@@ -72,7 +76,6 @@ body {
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
-  
   .custom-img {
       width: 100%;
   }
@@ -85,10 +88,12 @@ body {
       font-size: 0.9rem;
       line-height: 1.5; /* Slightly reduced line spacing for smaller screens */
       word-spacing: 1.5px; /* Slightly reduced word spacing */
+      font-family: 'Poppins', sans-serif; /* Ensure Poppins on tablets */
   }
 
   .tagline {
       font-size: 1rem; /* Smaller tagline on tablets */
+      font-family: 'Poppins', sans-serif; /* Ensure Poppins on tablets */
   }
 }
 
@@ -97,9 +102,11 @@ body {
       font-size: 0.85rem;
       line-height: 1.4; /* Further reduced line spacing */
       word-spacing: 1px; /* Further reduced word spacing */
+      font-family: 'Poppins', sans-serif; /* Ensure Poppins on mobile */
   }
 
   .tagline {
       font-size: 0.9rem; /* Smaller tagline on mobile */
+      font-family: 'Poppins', sans-serif; /* Ensure Poppins on mobile */
   }
 }
