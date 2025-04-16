@@ -1,9 +1,6 @@
 
 
-body {
-  font-family: 'Poppins', sans-serif !important;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 .site-header {
   background-color: white;
   padding: 1rem 2rem;
@@ -50,7 +47,7 @@ body {
   transition: color 0.3s ease;
   color: #ff3333 !important;
   padding-right: 60px !important;
-  font-family: 'Poppins', sans-serif !important;
+  
 }
 
 .nav-items a:hover {

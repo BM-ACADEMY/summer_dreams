@@ -1,9 +1,6 @@
 
 
-body {
-  font-family: 'Poppins', sans-serif !important;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 .hero-carousel {
   position: relative;
   width: 100%;
@@ -52,7 +49,7 @@ body {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   font-size: 2rem;
   font-weight: bold;
-  font-family: 'Poppins', sans-serif !important;
+
 }
 
 .text-line {

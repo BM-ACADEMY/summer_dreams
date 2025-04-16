@@ -1,7 +1,7 @@
 
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 body {
-  font-family: 'Poppins', sans-serif !important;
+ 
   background-color: #ffffff;
 }
 
@@ -45,7 +45,7 @@ body {
   opacity: 0;
   transition: opacity 1.0s ease-out;
   color: #000000 !important;
-  font-family: 'Poppins', sans-serif !important;
+ 
 }
 
 .animate-on-scroll {
@@ -58,7 +58,7 @@ body {
   font-size: 1.2rem;
   font-style: italic;
   color: #555555;
-  font-family: 'Poppins', sans-serif !important;
+ 
 }
 
 /* Custom image styling */
@@ -89,12 +89,12 @@ body {
     font-size: 0.9rem;
     line-height: 1.5;
     word-spacing: 1.5px;
-    font-family: 'Poppins', sans-serif !important;
+  
   }
 
   .tagline {
     font-size: 1rem;
-    font-family: 'Poppins', sans-serif !important;
+   
   }
 }
 
@@ -103,11 +103,11 @@ body {
     font-size: 0.85rem;
     line-height: 1.4;
     word-spacing: 1px;
-    font-family: 'Poppins', sans-serif !important;
+   
   }
 
   .tagline {
     font-size: 0.9rem;
-    font-family: 'Poppins', sans-serif !important;
+  
   }
 }
