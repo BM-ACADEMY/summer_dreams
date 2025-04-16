@@ -103,3 +103,10 @@ body {
       font-size: 0.9rem; /* Smaller tagline on mobile */
   }
 }
+@media (max-width: 576px) {
+  .custom-img {
+      height: 250px; /* Adjust as needed for mobile */
+      object-fit: cover; 
+      width: max-content;/* Ensures image is nicely cropped and scaled */
+  }
+}
