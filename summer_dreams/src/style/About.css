@@ -72,7 +72,10 @@ body {
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
-  
+  body {
+
+    font-family: 'poppins'; /* White background for the entire page */
+  }
   .custom-img {
       width: 100%;
   }
@@ -93,6 +96,10 @@ body {
 }
 
 @media (max-width: 576px) {
+  body {
+
+    font-family: 'poppins'; /* White background for the entire page */
+  }
   .animate-paragraph {
       font-size: 0.85rem;
       line-height: 1.4; /* Further reduced line spacing */

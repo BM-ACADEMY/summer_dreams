@@ -103,3 +103,8 @@ a:hover {
   margin: 0 auto; /* Center horizontally */
   text-align: center;
 }
+@media (max-width: 768px) {
+  body {
+
+    font-family: 'poppins'; /* White background for the entire page */
+  }}

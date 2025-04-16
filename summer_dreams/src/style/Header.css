@@ -66,6 +66,11 @@ body{
 
 /* Responsive Design */
 @media (max-width: 768px) {
+
+    body {
+  
+      font-family: 'poppins'; /* White background for the entire page */
+    }
   .brand-logo {
     padding-left: 1.5rem; /* Added space to the left of the logo */
   }
@@ -107,7 +112,11 @@ body{
 
 /* Ensure desktop view works */
 @media (min-width: 769px) {
-
+  
+    body {
+  
+      font-family: 'poppins'; /* White background for the entire page */
+    }
   .navigation {
     display: block !important; /* Override any mobile state */
   }
