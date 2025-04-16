@@ -102,11 +102,11 @@ body {
       font-size: 0.85rem;
       line-height: 1.4; /* Further reduced line spacing */
       word-spacing: 1px; /* Further reduced word spacing */
-      font-family: 'Poppins', sans-serif; /* Ensure Poppins on mobile */
+      font-family: 'Poppins', sans-serif !important; /* Ensure Poppins on mobile */
   }
 
   .tagline {
       font-size: 0.9rem; /* Smaller tagline on mobile */
-      font-family: 'Poppins', sans-serif; /* Ensure Poppins on mobile */
+      font-family: 'Poppins', sans- !important; /* Ensure Poppins on mobile */
   }
 }
