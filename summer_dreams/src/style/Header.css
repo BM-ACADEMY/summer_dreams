@@ -1,10 +1,9 @@
-/* Header.css */@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 
-
-body{
+body {
   font-family: 'Poppins', sans-serif !important;
 }
+
 .site-header {
   background-color: white;
   padding: 1rem 2rem;
@@ -51,10 +50,11 @@ body{
   transition: color 0.3s ease;
   color: #ff3333 !important;
   padding-right: 60px !important;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 .nav-items a:hover {
-  color: #ff3333 !important;
+  color: #cc0000 !important;
 }
 
 .menu-button {
@@ -67,20 +67,15 @@ body{
   z-index: 1001;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
-
-    body {
-      font-family: 'Poppins', sans-serif !important;
-    }
   .brand-logo {
-    padding-left: 1.5rem; /* Added space to the left of the logo */
+    padding-left: 1.5rem;
   }
- 
+
   .menu-button {
     display: block;
     padding-right: 70px !important;
-    font-weight: 700 ;
+    font-weight: 700;
     width: 150px;
     height: 100px;
   }
@@ -112,16 +107,11 @@ body{
   }
 }
 
-/* Ensure desktop view works */
 @media (min-width: 769px) {
-  
-    body {
-      font-family: 'Poppins', sans-serif !important;
-    }
   .navigation {
-    display: block !important; /* Override any mobile state */
+    display: block !important;
   }
-  
+
   .menu-button {
     display: none !important;
   }

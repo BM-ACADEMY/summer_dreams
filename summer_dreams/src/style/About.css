@@ -1,23 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
 
 body {
-  font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  /* White background for the entire page */
+  font-family: 'Poppins', sans-serif !important;
+  background-color: #ffffff;
 }
 
 .container {
-  background-color: #ffffff !important; /* Override Bootstrap's bg-light */
+  background-color: #ffffff !important;
 }
 
 /* Slide in from left animation for image */
 @keyframes slideInLeft {
   from {
-      transform: translateX(-100%);
-      opacity: 0;
+    transform: translateX(-100%);
+    opacity: 0;
   }
   to {
-      transform: translateX(0);
-      opacity: 1;
+    transform: translateX(0);
+    opacity: 1;
   }
 }
 
@@ -28,24 +28,24 @@ body {
 /* Fade in animation for paragraph */
 @keyframes fadeInUp {
   from {
-      opacity: 0;
-      transform: translateY(20px);
+    opacity: 0;
+    transform: translateY(20px);
   }
   to {
-      opacity: 1;
-      transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
 .animate-paragraph {
-  margin: 0; /* Remove default margin */
-  padding: 0; /* Remove default padding */
-  line-height: 1.6; /* Increased line spacing for readability (previously 1.2) */
-  word-spacing: 2px; /* Added word spacing */
-  opacity: 0; /* Start hidden */
-  transition: opacity 1.0s ease-out; /* Smooth transition when hiding */
-  color: #000000 !important; /* Change text color to black for visibility on white background */
-  font-family: 'Poppins', sans-serif; /* Ensure Poppins for paragraphs */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  word-spacing: 2px;
+  opacity: 0;
+  transition: opacity 1.0s ease-out;
+  color: #000000 !important;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 .animate-on-scroll {
@@ -55,58 +55,59 @@ body {
 
 /* Tagline styling */
 .tagline {
-  font-size: 1.2rem; /* Slightly larger font size */
-  font-style: italic; /* Italicized for emphasis */
-  color: #555555; /* Softer gray color for contrast */
-  font-family: 'Poppins', sans-serif; /* Ensure Poppins for tagline */
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #555555;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 /* Custom image styling */
 .custom-img {
-  border: 1px solid #e4c93f; /* Custom border */
+  border: 1px solid #e4c93f;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   height: 400px;
   width: 700px;
 }
 
 .custom-img:hover {
-  transform: scale(1.05); /* Subtle popup effect */
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .custom-img {
-      width: 100%;
+    width: 100%;
+    height: auto;
   }
 
   .slide-in-left {
-      animation: none; /* Disable animation on smaller screens */
+    animation: none;
   }
 
   .animate-paragraph {
-      font-size: 0.9rem;
-      line-height: 1.5; /* Slightly reduced line spacing for smaller screens */
-      word-spacing: 1.5px; /* Slightly reduced word spacing */
-      font-family: 'Poppins', sans-serif; /* Ensure Poppins on tablets */
+    font-size: 0.9rem;
+    line-height: 1.5;
+    word-spacing: 1.5px;
+    font-family: 'Poppins', sans-serif !important;
   }
 
   .tagline {
-      font-size: 1rem; /* Smaller tagline on tablets */
-      font-family: 'Poppins', sans-serif; /* Ensure Poppins on tablets */
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif !important;
   }
 }
 
 @media (max-width: 576px) {
   .animate-paragraph {
-      font-size: 0.85rem;
-      line-height: 1.4; /* Further reduced line spacing */
-      word-spacing: 1px; /* Further reduced word spacing */
-      font-family: 'Poppins', sans-serif !important; /* Ensure Poppins on mobile */
+    font-size: 0.85rem;
+    line-height: 1.4;
+    word-spacing: 1px;
+    font-family: 'Poppins', sans-serif !important;
   }
 
   .tagline {
-      font-size: 0.9rem; /* Smaller tagline on mobile */
-      font-family: 'Poppins', sans- !important; /* Ensure Poppins on mobile */
+    font-size: 0.9rem;
+    font-family: 'Poppins', sans-serif !important;
   }
 }

@@ -1,10 +1,10 @@
-/* Footer.css */
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
+
+body {
+  font-family: 'Poppins', sans-serif !important;
+}
 
 .container-fluid {
-  
   color: #fff !important;
   background: linear-gradient(45deg, green, #000000);
 }
@@ -16,9 +16,12 @@ footer {
 .footer-logo {
   max-width: 150px;
   height: auto;
- 
+  display: block;
+  margin: 0 auto;
+  text-align: center;
 }
-.copy-rights{
+
+.copy-rights {
   color: white;
 }
 
@@ -51,6 +54,7 @@ li:first-child {
 a {
   color: #ffffff !important;
   text-decoration: none;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 a:hover {
@@ -80,31 +84,30 @@ a:hover {
 .copy.Rights {
   display: block;
   text-align: center;
-  font-size: 0.875rem; /* Optional: Adjust font size if needed */
+  font-size: 0.875rem;
 }
 
 .social-icons {
   display: flex;
-  gap: 10px; /* Adjust spacing between icons */
-  margin-top: 10px; /* Space above icons */
+  gap: 10px;
+  margin-top: 10px;
 }
 
 .social-icons a {
-  color: #333; /* Default icon color */
+  color: #fcfafa;
   transition: color 0.3s ease;
 }
 
 .social-icons a:hover {
-  color: #007bff; /* Hover color, adjust as needed */
+  color: #007bff;
 }
-.footer-logo {
-  max-width: 150px;
-  height: auto;
-  display: block;
-  margin: 0 auto; /* Center horizontally */
-  text-align: center;
-}
+
 @media (max-width: 768px) {
-  body {
-    font-family: 'Poppins', sans-serif !important;
-  }}
+  .footer-logo {
+    max-width: 120px;
+  }
+
+  .copy.Rights {
+    font-size: 0.8rem;
+  }
+} 
