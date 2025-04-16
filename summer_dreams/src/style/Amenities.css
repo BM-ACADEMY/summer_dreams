@@ -1,8 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-
-
 body{
-  font-family: 'Poppins', sans-serif !important;
+  font-family: 'poppins';
 }
 .cards-container {
     max-width: 1200px;
@@ -69,20 +66,12 @@ body{
   }
   
   @media (max-width: 1024px) {
-    body {
-
-      font-family: 'Poppins', sans-serif !important;
-    }
     .card-row {
       grid-template-columns: repeat(2, 1fr);
     }
   }
   
   @media (max-width: 768px) {
-    body {
-
-      font-family: 'Poppins', sans-serif !important;
-    }
     .cards-heading {
       padding-left: 20px;
       font-size: 1.5rem;
