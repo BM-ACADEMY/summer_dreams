@@ -106,5 +106,5 @@ a:hover {
 @media (max-width: 768px) {
   body {
 
-    font-family: 'poppins'; /* White background for the entire page */
+    font-family: poppins; /* White background for the entire page */
   }}

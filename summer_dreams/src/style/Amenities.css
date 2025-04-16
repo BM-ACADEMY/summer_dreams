@@ -68,7 +68,7 @@ body{
   @media (max-width: 1024px) {
     body {
 
-      font-family: 'poppins'; /* White background for the entire page */
+      font-family: poppins; /* White background for the entire page */
     }
     .card-row {
       grid-template-columns: repeat(2, 1fr);
@@ -78,7 +78,7 @@ body{
   @media (max-width: 768px) {
     body {
 
-      font-family: 'poppins'; /* White background for the entire page */
+      font-family: poppins; /* White background for the entire page */
     }
     .cards-heading {
       padding-left: 20px;

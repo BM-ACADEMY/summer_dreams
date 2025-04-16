@@ -98,7 +98,7 @@ body {
 @media (max-width: 576px) {
   body {
 
-    font-family: 'poppins'; /* White background for the entire page */
+    font-family: poppins !important; /* White background for the entire page */
   }
   .animate-paragraph {
       font-size: 0.85rem;
