@@ -1,0 +1,25 @@
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap'); */
+
+
+.App {
+    font-family: 'Poppins';
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Example component styling */
+  h1, p, button {
+    font-family: 'Poppins';
+  }
+  
+  /* Ensure consistency on mobile */
+  @media screen and (max-width: 768px) {
+    .App {
+      padding: 1rem;
+    }
+  }

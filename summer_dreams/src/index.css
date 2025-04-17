@@ -1,0 +1,34 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap'); */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+html, body {
+  font-family: 'Poppins';
+  width: 100%;
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Ensure no system font overrides on mobile */
+:root {
+  font-family: 'Poppins';
+}
+
+/* Responsive font size example */
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 16px; /* Base font size for mobile */
+  }
+}
+
+@media screen and (min-width: 769px) {
+  html {
+    font-size: 18px; /* Base font size for desktop */
+  }
+}
